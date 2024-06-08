@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Logan Cammock's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Beige */
+            color: #333;
+        }
+        header {
+            background-color: #8b4513; /* Saddle Brown */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #deb887; /* Burlywood */
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #8b4513;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #8b4513;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img, .section video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Richard Logan Cammock</h1>
+        <p>Boxing Enthusiast and Artist</p>
+    </header>
+    <nav>
+        <a href="#art">Art</a>
+        <a href="#boxing">Boxing</a>
+        <a href="#blog">Blog/Vlog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="art" class="section">
+            <h2>Art</h2>
+            <p>Welcome to my art gallery. Here you'll find some of my latest drawings and paintings.</p>
+            <!-- Example images - replace with your own -->
+            <img src="art1.jpg" alt="Drawing 1">
+            <img src="art2.jpg" alt="Drawing 2">
+            <img src="art3.jpg" alt="Drawing 3">
+        </section>
+        <section id="boxing" class="section">
+            <h2>Boxing</h2>
+            <p>Boxing is my passion. Check out some videos and pictures of my sparring and training sessions.</p>
+            <!-- Example videos - replace with your own -->
+            <video controls>
+                <source src="sparring1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="sparring2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img src="boxing1.jpg" alt="Boxing Training 1">
+            <img src="boxing2.jpg" alt="Boxing Training 2">
+        </section>
+        <section id="blog" class="section">echo "# Laidout" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/R1ch4rdC4330ck/Laidout.git
+git push -u origin main
+            <h2>Blog/Vlog</h2>
+            <p>Follow my journey as I balance my love for art and boxing. Here are some of my latest blog posts and vlogs.</p>
+            <!-- Example blog post - replace with your own -->
+            <article>
+                <h3>A Day in the Life</h3>
+                <p>Posted on June 8, 2024</p>
+                <p>Today was an exciting day. I started with a morning run, followed by a sketching session...</p>
+                <a href="blog1.html">Read more</a>
+            </article>
+            <!-- Example vlog - replace with your own -->
+            <video controls>
+                <source src="vlog1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me through the following channels:</p>
+            <ul>
+                <li>Email: <a href="mailto:richard@example.com">richard@example.com</a></li>
+                <li>Instagram: <a href="https://instagram.com/richardlogancammock" target="_blank">@richardlogancammock</a></li>
+                <li>Twitter: <a href="https://twitter.com/richardlogancammock" target="_blank">@richardlogancammock</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Richard Logan Cammock. All rights reserved.
+    </footer>
+</body>
+</html>
